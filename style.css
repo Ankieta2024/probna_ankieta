@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body p{
+	 margin-top:20px;
+ }
+
+table {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 80%;
+    border-collapse: collapse; /* Zapewnia połączenie ramek */
+    border: 2px solid #333; /* Ramka wokół całej tabeli */
+	margin-bottom: 40px; /* Dodanie odstępu między tabelami */
+	
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+	text-align: center;
+}
+th, td {
+    border: 1px solid #dddddd; /* Ramki wokół komórek */
+    padding: 8px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #0099CC;
+    color: white;
+    padding: 10px;
+	text-align: center;
+
+}
+
+th:first-child {
+            text-align: left; /* Nagłówek wyrównany do lewej */
+        }
+
+        th:last-child {
+            text-align: center; /* Nagłówek wyśrodkowany */
+        }
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
